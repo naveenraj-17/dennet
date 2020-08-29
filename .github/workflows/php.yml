@@ -35,3 +35,6 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
+    - name: Setup PHP Action
+      uses: shivammathur/setup-php@2.4.3
+
